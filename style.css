@@ -1,0 +1,32 @@
+body {
+    background: goldenrod;
+}
+
+#header {
+    background: yellowgreen;
+}
+
+#main {
+    background: lavender;
+}
+
+#footer {
+    background: gray;
+    float: inline-end;
+}
+
+#link {
+    text-decoration: none;
+}
+
+#menu li{
+    display: inline;
+}
+
+#nav {
+    float: inline-start;
+}
+
+.p-float {
+    float: initial;
+}
