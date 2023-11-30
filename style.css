@@ -1,9 +1,40 @@
 body {
     background: goldenrod;
+    height: 100vh;
+}
+
+.p-float {
+    float: initial;
 }
 
 #header {
-    background: yellowgreen;
+    background-color: yellowgreen;
+    height: 10%;
+}
+
+#logo {
+    background: gainsboro;
+    float: left;
+    height: 21.5%;
+    width: 6%;
+    padding-left: 4%;
+}
+
+#nav {
+    float: right;
+    background: floralwhite;
+    width: 90%;
+}
+
+#menu li{
+    display: inline;
+    list-style-type: none;
+    margin: 40px;
+    padding-left: 10%;
+}
+
+#link {
+    text-decoration: none;
 }
 
 #main {
@@ -12,21 +43,16 @@ body {
 
 #footer {
     background: gray;
-    float: inline-end;
-}
-
-#link {
-    text-decoration: none;
-}
-
-#menu li{
-    display: inline;
-}
-
-#nav {
-    float: inline-start;
-}
-
-.p-float {
     float: initial;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
+
+
+
+
+
+
+
